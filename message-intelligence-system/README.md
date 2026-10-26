@@ -11,7 +11,7 @@
 ![F1](https://img.shields.io/badge/Best%20F1-0.9974-brightgreen)
 ![Course](https://img.shields.io/badge/Course-Supervised%20Learning-blueviolet)
 
-**[🚀 Live Streamlit App](#-links)** · **[🎥 Video Explanation](#-links)** · **[📓 Notebook](Message_Intelligence_System.ipynb)**
+**[🚀 Live Streamlit App](https://message-intelligence-system-mwe9tkrkmejfxehqokwd89.streamlit.app/)** · **[🎥 Video Explanation](https://drive.google.com/drive/folders/1oDMGJamB75MG9-LW6aaAwBLmBXl3Tzep)** · **[📓 Notebook](Message_Intelligence_System.ipynb)**
 
 </div>
 
