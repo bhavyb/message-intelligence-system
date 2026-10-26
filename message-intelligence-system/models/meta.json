@@ -1,0 +1,56 @@
+{
+  "features": [
+    "message_length",
+    "word_count",
+    "num_urls",
+    "num_digits",
+    "spam_keyword_score",
+    "legit_keyword_score",
+    "sender_activity_score",
+    "sender_account_age_days",
+    "messages_sent_last_24h",
+    "hour_of_day",
+    "day_of_week"
+  ],
+  "best_k": 3,
+  "svm_params": {
+    "C": 100,
+    "gamma": "0.01"
+  },
+  "metrics": {
+    "KNN": {
+      "Model": "KNN",
+      "Accuracy": 0.9990384615384615,
+      "Precision": 1.0,
+      "Recall": 0.9948717948717949,
+      "F1": 0.9974293059125964
+    },
+    "SVM (RBF)": {
+      "Model": "SVM (RBF)",
+      "Accuracy": 0.9990384615384615,
+      "Precision": 1.0,
+      "Recall": 0.9948717948717949,
+      "F1": 0.9974293059125964
+    },
+    "Naive Bayes": {
+      "Model": "Naive Bayes",
+      "Accuracy": 0.9951923076923077,
+      "Precision": 0.9846938775510204,
+      "Recall": 0.9897435897435898,
+      "F1": 0.9872122762148338
+    }
+  },
+  "medians": {
+    "message_length": 74.0,
+    "word_count": 11.0,
+    "num_urls": 0.0,
+    "num_digits": 0.0,
+    "spam_keyword_score": 0.0,
+    "legit_keyword_score": 1.0,
+    "sender_activity_score": 54.8,
+    "sender_account_age_days": 271.0,
+    "messages_sent_last_24h": 7.0,
+    "hour_of_day": 12.0,
+    "day_of_week": 3.0
+  }
+}
