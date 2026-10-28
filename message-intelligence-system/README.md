@@ -172,5 +172,3 @@ Type a message, adjust sender/time details, pick a model and a spam-probability 
 2. **Choose the threshold by cost** — high *precision* for critical legitimate traffic (OTP, banking, work mail); high *recall* for security/phishing filtering. Send messages with P(Spam) between 0.3–0.7 to **human review**.
 3. Keyword scores are easy for spammers to change → **retrain regularly** and keep sender-behaviour features (account age, messages in 24 h, URLs).
 4. Track **precision / recall / F1** in production, not accuracy (spam is the minority class).
-
-⚠️ **Limitation:** messages are template-based, so real-world accuracy will be lower. Next step: TF-IDF text features.
